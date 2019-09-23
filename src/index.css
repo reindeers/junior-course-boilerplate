@@ -1,3 +1,7 @@
+.header {
+  font-weight: 100;
+  margin: 100px 0;
+}
 .container {
   width: 100%;
   display: flex;
@@ -5,16 +9,9 @@
   align-items: center;
   font-family: sans-serif;
 }
-.container h1 {
-  font-weight: 100;
-  margin: 8vw 0;
-}
-.container_list {
-
-}
-.container_list ul {
+.list {
   padding-left: 12px;
 }
-.container_list ul li {
+.list_item {
   margin: 10px;
 }

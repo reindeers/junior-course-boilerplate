@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="container">
       <div className="container_list">
-        <h1>Список товаров</h1>
-        <ul>
+        <h1 className="header">Список товаров</h1>
+        <ul className="list">
           {
-            data.filter(item => item.id < 4).map(item => <li key={item.id}>{item.name}</li>)
+            data.slice(0, 3).map(item => <li className="list_item" key={item.id}>{item.name}</li>)
           }
         </ul>
       </div>
