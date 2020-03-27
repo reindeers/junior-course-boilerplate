@@ -1,0 +1,17 @@
+.header {
+  font-weight: 100;
+  margin: 100px 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+.list {
+  padding-left: 12px;
+}
+.list_item {
+  margin: 10px;
+}
