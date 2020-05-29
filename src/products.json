@@ -1,26 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Имя товара1"
+    "name": "Имя товара1",
+    "inStock": true,
+    "price": "500",
+    "subPrice": "10",
+    "rating": 4,
+    "img": "https://pngimg.com/uploads/book/book_PNG51098.png"
   },
   {
     "id": 2,
-    "name": "Имя товара2"
+    "name": "Имя товара2",
+    "inStock": true,
+    "price": "500",
+    "subPrice": "10",
+    "rating": 4,
+    "img": "https://pngimg.com/uploads/book/book_PNG51098.png"
   },
   {
     "id": 3,
-    "name": "Имя товара3"
+    "name": "Имя товара3",
+    "inStock": true,
+    "price": "500",
+    "subPrice": "10",
+    "rating": 4,
+    "img": "https://pngimg.com/uploads/book/book_PNG51098.png"
   },
   {
     "id": 4,
-    "name": "Имя товара4"
+    "name": "Имя товара4",
+    "inStock": true,
+    "price": "500",
+    "subPrice": "10",
+    "rating": 4,
+    "img": "https://pngimg.com/uploads/book/book_PNG51098.png"
   },
   {
     "id": 5,
-    "name": "Имя товара5"
+    "name": "Имя товара5",
+    "inStock": true,
+    "price": "500",
+    "subPrice": "10",
+    "rating": 4,
+    "img": "https://pngimg.com/uploads/book/book_PNG51098.png"
   },
   {
     "id": 6,
-    "name": "Имя товара6"
+    "name": "Имя товара6",
+    "inStock": true,
+    "price": "500",
+    "subPrice": "10",
+    "rating": 4,
+    "img": "https://pngimg.com/uploads/book/book_PNG51098.png"
   }
 ]
