@@ -10,7 +10,7 @@ function App() {
   const data = itemsData;
   return (
     <div className="container">
-      <div className="container_list">
+      <div className="products_container">
         <ProductHeader/>
         <ProductList items={data.slice(0, 3)}></ProductList>
       </div>
