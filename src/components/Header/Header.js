@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
 import './Header.css';
 
-class ProductHeader extends Component {
+class Header extends Component {
   render() {
-      return <h1 className="header">{this.props.title}</h1>
+      return <h1 className="header">{this.props.children}</h1>
   }
 }
 
-export default ProductHeader;
+export default Header;

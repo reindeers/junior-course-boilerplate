@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <div className="products_container">
-        <Header title="Список товаров"/>
+        <Header>Список товаров</Header>
         <ProductList items={data.slice(0, 3)}/>
       </div>
     </div>
