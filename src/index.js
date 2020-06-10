@@ -2,7 +2,7 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ProductList from './components/ProductList/ProductList';
-import Header from './components/Header/Header';
+import Title from './components/Title/Title';
 
 const itemsData = require('./products.json');
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <div className="products_container">
-        <Header>Список товаров</Header>
+        <Title>Список товаров</Title>
         <ProductList items={data.slice(0, 3)}/>
       </div>
     </div>
