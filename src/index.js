@@ -1,6 +1,8 @@
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ProductList from './components/ProductList/ProductList';
+import Title from './components/Title/Title';
 
 const itemsData = require('./products.json');
 
@@ -8,13 +10,9 @@ function App() {
   const data = itemsData;
   return (
     <div className="container">
-      <div className="container_list">
-        <h1 className="header">Список товаров</h1>
-        <ul className="list">
-          {
-            data.slice(0, 3).map(item => <li className="list_item" key={item.id}>{item.name}</li>)
-          }
-        </ul>
+      <div className="products_container">
+        <Title>Список товаров</Title>
+        <ProductList items={data.slice(0, 3)}/>
       </div>
     </div>
   )
